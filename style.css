@@ -26,6 +26,13 @@ body {
     align-items: center;
     gap: -5px;
 }
+/* Default: show text, hide image (desktop) */
+.head-text {
+    display: block;
+}
+.head-image {
+    display: none;
+}
 .head p {
     color:#fff;
     font-size: clamp(0.9em, 3vw, 2em);
@@ -65,4 +72,10 @@ figure img {
 }
 figure img:hover {
     transform: translateY(5px);
+}
+/* For screens up to 480px wide (small mobile phones) */
+@media (max-width: 480px) {
+    .head {
+        background-image: url(./Images/dlettelogo.png);
+    }
 }
