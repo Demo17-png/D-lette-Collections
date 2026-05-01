@@ -71,7 +71,7 @@ span {
     border: 5px transparent;
     border-radius: 20px;
 }
-.s-s img:hover {
+.banner img:hover {
     transform: translateY(5px);
 }
 /* For screens up to 480px wide (small mobile phones) */
