@@ -28,7 +28,7 @@ body {
 }
 /* Default: show text, hide image (desktop) */
 .head-text {
-    display: block;
+    text-align: center;
 }
 .head-image {
     display: none;
@@ -75,7 +75,11 @@ figure img:hover {
 }
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
-    .head {
-        background-image: url(./Images/dlettelogo.png);
-    }
+    .head-text {
+    display: none;
+}
+.head-image {
+    display: block;
+}
+
 }
