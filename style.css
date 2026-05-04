@@ -20,6 +20,7 @@ body {
 
 .head {
     background-color: rgb(199, 146, 237);
+    padding-top: 15px;
 }
 .services {
     background-color:  rgb(199, 146, 237);
@@ -39,6 +40,9 @@ body {
   width: 20%;
   border: 10px solid transparent;
   border-radius: 10px;
+}
+.service:hover {
+    transform: translateX(5px);
 }
 
 .head-image {
