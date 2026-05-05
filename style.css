@@ -93,6 +93,18 @@ span {
         width: 25%;
     }
 }
+/* For screens up to 680px wide */
+@media (max-width: 680px) {
+    .services {
+    padding: 50px 40px;
+
+}
+    .service {
+        width: 30%;
+    }
+}
+
+
 
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
