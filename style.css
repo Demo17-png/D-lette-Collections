@@ -81,7 +81,7 @@ span {
 .banner img {
     height: 90vh;
     width: 60%;
-    border: 5px solid rgb(179, 62, 169);
+    border: 3px solid  rgb(179, 62, 169);
     border-radius: 20px;
 }
 .banner img:hover {
