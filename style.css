@@ -123,5 +123,8 @@ span {
     .service {
         width: 90%;
     }
+    .service p {
+      font-size: clamp(2em, 3vw, 2.6em);
+    }
 
 }
