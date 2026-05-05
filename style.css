@@ -115,5 +115,12 @@ span {
     width: 90%;
     height: auto;
  }
+ .services {
+    padding: 50px 30px;
+
+}
+    .service {
+        width: 35%;
+    }
 
 }
