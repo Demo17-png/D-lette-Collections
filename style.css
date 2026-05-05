@@ -87,6 +87,13 @@ span {
 .banner img:hover {
     transform: translateY(5px);
 }
+/* For screens up to 768px wide */
+@media (max-width: 768px) {
+    .service {
+        width: 25%;
+    }
+}
+
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
  .head-image {
@@ -96,4 +103,5 @@ span {
     width: 100%;
     height: auto;
  }
+
 }
