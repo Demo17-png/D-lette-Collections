@@ -89,6 +89,11 @@ span {
 }
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
- 
-
+ .head-image {
+    width: 25vw;
+ }
+ .banner img {
+    width: 100%;
+    height: auto;
+ }
 }
