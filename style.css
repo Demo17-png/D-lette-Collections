@@ -116,11 +116,12 @@ span {
     height: auto;
  }
  .services {
-    padding: 50px 30px;
+    flex-direction: column;
+    gap: 20px;
 
 }
     .service {
-        width: 35%;
+        width: 65%;
     }
 
 }
