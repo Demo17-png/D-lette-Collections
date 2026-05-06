@@ -87,7 +87,7 @@ span {
 .banner img:hover {
     transform: translateY(5px);
 }
-.styles {
+.styles, .models {
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
@@ -96,10 +96,18 @@ span {
     text-align: center;
     padding: 20px;
 }
-.style img {
+.style img, .model img {
    border-radius: 15px;
    width: 60%;
    height: 80%;
+}
+.model {
+    background-color: rgb(238, 188, 196);
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.model img:hover {
+    transform: translateY(5px);
 }
 /* For screens up to 768px wide */
 @media (max-width: 768px) {
