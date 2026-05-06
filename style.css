@@ -87,6 +87,10 @@ span {
 .banner img:hover {
     transform: translateY(5px);
 }
+.styles {
+    display: flex;
+    flex-wrap: wrap;
+}
 /* For screens up to 768px wide */
 @media (max-width: 768px) {
     .service {
