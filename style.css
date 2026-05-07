@@ -136,6 +136,12 @@ span {
 
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
+.head {
+    background-color: rgb(199, 146, 237);
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 0px 35px;
+    }
  .head-image {
     width: 25vw;
  }
