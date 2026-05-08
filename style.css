@@ -169,5 +169,8 @@ span {
     .service p {
       font-size: clamp(2em, 3vw, 2.6em);
     }
+    .model {
+        padding-bottom: 15px;
+    }
 
 }
