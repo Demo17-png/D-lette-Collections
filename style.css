@@ -107,6 +107,7 @@ span {
     text-align: center;
     padding: 20px;
 }
+
 .style img, .model img {
    border-radius: 15px;
    width: 60%;
@@ -123,6 +124,10 @@ span {
 .price {
     color: grey;
     
+}
+.more {
+    background-color:  rgb(199, 146, 237);
+    height: 50px;
 }
 /* For screens up to 768px wide */
 @media (max-width: 768px) {
@@ -146,7 +151,6 @@ span {
 /* For screens up to 480px wide (small mobile phones) */
 @media (max-width: 480px) {
 .head-home {
-    background-color: rgb(199, 146, 237);
     display: flex;
     align-items: center;
     padding: 15px 20px 5px 77px;
