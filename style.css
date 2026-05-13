@@ -108,7 +108,7 @@ span {
     padding: 20px;
 }
 
-.style img, .model img {
+.style img, .model img, .model4 img {
    border-radius: 15px;
    width: 60%;
    height: 80%;
@@ -118,7 +118,11 @@ span {
     border-radius: 20px;
     padding-top: 20px;
 }
-.model img:hover {
+.model4 {
+    border-radius: 20px;
+    padding-top: 20px;
+}
+.model img:hover, .model4 img:hover {
     transform: translateY(5px);
 }
 .price {
